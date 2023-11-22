@@ -11,8 +11,12 @@ namespace MobileDNA
         static void Main(string[] args)
         {
             var reader = new Process_HTML();
+            Console.Write("Enter the Year: ");
             reader.year = Console.ReadLine();
-            reader.read_html();
+            var title_ls = reader.read_title();
+            title_ls.ForEach(x => Console.WriteLine(x));
+            Console.WriteLine("Break\n\n\n");
+            reader.two_deep_extractor();
             Console.ReadKey();
         }
     }
