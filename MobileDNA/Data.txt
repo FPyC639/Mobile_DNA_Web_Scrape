@@ -1,0 +1,51 @@
+Paper Index; Title
+1;Identification of RAG-like transposons in protostomes suggests their ancient bilaterian origin
+2;Correction to: High-performance gene expression and knockout tools using sleeping beauty transposon system
+3;Characterization of transposable elements within the Bemisia tabaci species complex
+4;Whole-genome analysis reveals the contribution of non-coding de novo transposon insertions to autism spectrum disorder
+5;Transposable element abundance correlates with mode of transmission in microsporidian parasites
+6;IS982 and kin: new insights into an old IS family
+7;Correction to: Transcriptome analyses of tumor-adjacent somatic tissues reveal genes co-expressed with transposable elements
+8;The fifth Japanese meeting on biological function and evolution through interactions between hosts and transposable elements
+9;Nucleotide composition of transposable elements likely contributes to AT/GC compositional homogeneity of teleost fish genomes
+10;The association of group IIB intron with integrons in hypersaline environments
+11;Study of VIPER and TATE in kinetoplastids and the evolution of tyrosine recombinase retrotransposons
+12;LTR_FINDER_parallel: parallelization of LTR_FINDER enabling rapid identification of long terminal repeat retrotransposons
+13;Recurrent co-domestication of PIF/Harbinger transposable element proteins in insects
+14;Mobile group I introns at nuclear rDNA position L2066 harbor sense and antisense homing endonuclease genes intervened by spliceosomal introns
+15;T3E: a tool for characterising the epigenetic profile of transposable elements using ChIP-seq data
+16;Transposons and satellite DNA: on the origin of the major satellite DNA family in the Chenopodium genome
+17;The structural diversity of CACTA transposons in genomes of Chenopodium (Amaranthaceae, Caryophyllales) species: specific traits and comparison with the similar elements of angiosperms
+18;Paired-end mappability of transposable elements in the human genome
+19;A re-evaluation of LINE-1 ORF2 expression in LNCaP prostate cancer cells
+20;MGERT: a pipeline to retrieve coding sequences of mobile genetic elements from genome assemblies
+21;The Transposon Registry
+22;flam piRNA precursors channel from the nucleus to the cytoplasm in a temporally regulated manner along Drosophila oogenesis
+23;TE studies in Japan: the fourth Japanese meeting on host–transposon interactions
+24;Characterization of the endogenous retrovirus insertion in CYP19A1 associated with henny feathering in chicken
+25;Correction to: Nested plant LTR retrotransposons target specific regions of other elements, while all LTR retrotransposons often target palindromes and nucleosome-occupied regions: in silico study
+26;RepetDB: a unified resource for transposable element references
+27;Expression of down-regulated ERV LTR elements associates with immune activation in human small-cell lung cancers
+28;Alu insertion polymorphisms shared by Papio baboons and Theropithecus gelada reveal an intertwined common ancestry
+29;SINE Retrotransposon variation drives Ecotypic disparity in natural populations of Coilia nasus
+30;Mouse germ line mutations due to retrotransposon insertions
+31;Phylogenetic analysis of the Tc1/mariner superfamily reveals the unexplored diversity of pogo-like elements
+32;Characterising a human endogenous retrovirus(HERV)-derived tumour-associated antigen: enriched RNA-Seq analysis of HERV-K(HML-2) in mantle cell lymphoma cell lines
+33;Comprehensive genomic analysis reveals dynamic evolution of endogenous retroviruses that code for retroviral-like protein domains
+34;The UCSC repeat browser allows discovery and visualization of evolutionary conflict across repeat families
+35;Integrating transposable elements in the 3D genome
+36;Hybrid dysgenesis in Drosophila virilis results in clusters of mitotic recombination and loss-of-heterozygosity but leaves meiotic recombination unaltered
+37;Finding and extending ancient simple sequence repeat-derived regions in the human genome
+38;Identification and characterization of ERV-W-like sequences in Platyrrhini species provides new insights into the evolutionary history of ERV-W in primates
+39;Variation in base composition underlies functional and evolutionary divergence in non-LTR retrotransposons
+40;Integrated Mobile Element Scanning (ME-Scan) method for identifying multiple types of polymorphic mobile element insertions
+41;LUMI-PCR: an Illumina platform ligation-mediated PCR protocol for integration site cloning, provides molecular quantitation of integration sites
+42;Nested plant LTR retrotransposons target specific regions of other elements, while all LTR retrotransposons often target palindromes and nucleosome-occupied regions: in silico study
+43;Variable genome evolution in fungi after transposon-mediated amplification of a housekeeping gene
+44;Characterization of a novel Helitron family in insect genomes: insights into classification, evolution and horizontal transfer
+45;High frequency of horizontal transfer in Jockey families (LINE order) of drosophilids
+46;Characterization of a relaxase belonging to the MOBT family, a widespread family in Firmicutes mediating the transfer of ICEs
+47;A benchmark of transposon insertion detection tools using real data
+48;A mobile restriction modification system consisting of methylases on the IncA/C plasmid
+49;Horizontal transfer of a retrotransposon between parasitic nematodes and the common shrew
+50;Sex and the TEs: transposable elements in sexual development and function in animals

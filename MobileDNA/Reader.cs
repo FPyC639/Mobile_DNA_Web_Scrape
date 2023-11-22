@@ -2,8 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.IO;
 using System.Net.Http;
 using System.Security.Policy;
+using System.Text;
+using System.Threading;
 
 public abstract class Reader_HTML
 {
@@ -56,10 +59,16 @@ public class Process_HTML : Reader_HTML
         }
 		var titles_nodes = doc.DocumentNode.SelectNodes(@"//h3[@class='c-listing__title']");
 		Console.WriteLine(titles_nodes.Count);
-		foreach(var node in  titles_nodes)
+        var csv = new StringBuilder();
+        string newLine = null;
+        csv.AppendLine("Paper Index; Title");
+		int count = 1;
+        foreach (var node in  titles_nodes)
 		{
-			Console.WriteLine(node.InnerText);
-		}
-		Console.ReadKey();
-	}
+			newLine = string.Format("{0};{1}", count, node.InnerText.Trim());
+			csv.AppendLine(newLine);
+			count++;
+        }
+		File.WriteAllText(@"C:\Users\joses\Source\Repos\Mobile_DNA_Web_Scrape\MobileDNA\Data.txt", csv.ToString());
+    }
 }
