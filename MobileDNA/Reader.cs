@@ -86,10 +86,17 @@ public class Process_HTML : Reader_HTML
 	public async void two_deep_extractor()
 	{
         var doc = parse_webpage().Result;
-        var a_href = doc.DocumentNode.SelectNodes(@"//a[@itemprop='url']");
+        var a_href = doc.DocumentNode.SelectNodes(@"//h3//a[@itemprop='url']");
+		var csv = new StringBuilder();
+		string newLine = null;
+		int count = 0;
+		csv.AppendLine("Paper Index; Article_Link");
 		foreach( var a in a_href)
 		{
-			Console.WriteLine(a.Attributes["href"].Value);
+			newLine = string.Format("{0};{1}", count, string.Concat(this.url.Replace("/articles",""),a.Attributes["href"].Value));
+			csv.AppendLine(newLine);
+			count++;
 		}
+		File.WriteAllText(@"C:\Users\joses\Source\Repos\Mobile_DNA_Web_Scrape\MobileDNA\Data2.txt", csv.ToString());
 	}
 }
