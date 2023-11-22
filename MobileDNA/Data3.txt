@@ -1,0 +1,51 @@
+Title;Authors
+Identification of RAG-like transposons in protostomes suggests their ancient bilaterian origin; Eliza C. Martin, Célia Vicari, Louis Tsakou-Ngouafo, Pierre Pontarotti, Andrei J. Petrescu, David G. Schatz
+Correction to: High-performance gene expression and knockout tools using sleeping beauty transposon system; Kaishun Hu, Yu Li, Wenjing Wu, Hengxing Chen, Zhen Chen, Yin Zhang, Yabin Guo, Dong Yin
+Characterization of transposable elements within the Bemisia tabaci species complex; Juan Paolo A. Sicat, Paul Visendi, Steven O. Sewe, Sophie Bouvaine, Susan E. Seal
+Whole-genome analysis reveals the contribution of non-coding de novo transposon insertions to autism spectrum disorder; Rebeca Borges-Monroy, Chong Chu, Caroline Dias, Jaejoon Choi, Soohyun Lee, Yue Gao, Taehwan Shin, Peter J. Park, Christopher A. Walsh, Eunjung Alice Lee
+Transposable element abundance correlates with mode of transmission in microsporidian parasites; Nathalia Rammé Medeiros de Albuquerque, Dieter Ebert, Karen Luisa Haag
+IS982 and kin: new insights into an old IS family; Nancy Fayad, Mireille Kallassy Awad, Jacques Mahillon
+Correction to: Transcriptome analyses of tumor-adjacent somatic tissues reveal genes co-expressed with transposable elements; Nicky Chung, G. M. Jonaid, Sophia Quinton, Austin Ross, Corinne E. Sexton, Adrian Alberto, Cody Clymer, Daphnie Churchill, Omar Navarro Leija, Mira V. Han
+The fifth Japanese meeting on biological function and evolution through interactions between hosts and transposable elements; Kenji Ichiyanagi, Kuniaki Saito
+Nucleotide composition of transposable elements likely contributes to AT/GC compositional homogeneity of teleost fish genomes; Radka Symonová, Alexander Suh
+The association of group IIB intron with integrons in hypersaline environments; Sarah Sonbol, Rania Siam
+Study of VIPER and TATE in kinetoplastids and the evolution of tyrosine recombinase retrotransposons; Yasmin Carla Ribeiro, Lizandra Jaqueline Robe, Danila Syriani Veluza, Cyndia Mara Bezerra dos Santos, Ana Luisa Kalb Lopes, Marco Aurélio Krieger, Adriana Ludwig
+LTR_FINDER_parallel: parallelization of LTR_FINDER enabling rapid identification of long terminal repeat retrotransposons; Shujun Ou, Ning Jiang
+Recurrent co-domestication of PIF/Harbinger transposable element proteins in insects; Dragomira N. Markova, Fatema B. Ruma, Claudio Casola, Ayda Mirsalehi, Esther Betrán
+Mobile group I introns at nuclear rDNA position L2066 harbor sense and antisense homing endonuclease genes intervened by spliceosomal introns; Kjersti Lian, Betty M. N. Furulund, Anders A. Tveita, Peik Haugen, Steinar D. Johansen
+T3E: a tool for characterising the epigenetic profile of transposable elements using ChIP-seq data; Michelle Almeida da Paz, Leila Taher
+Transposons and satellite DNA: on the origin of the major satellite DNA family in the Chenopodium genome; Alexander Belyayev, Jiřina Josefiová, Michaela Jandová, Václav Mahelka, Karol Krak, Bohumil Mandák
+The structural diversity of CACTA transposons in genomes of Chenopodium (Amaranthaceae, Caryophyllales) species: specific traits and comparison with the similar elements of angiosperms; Alexander Belyayev, Jiřina Josefiová, Michaela Jandová, Ruslan Kalendar, Václav Mahelka, Bohumil Mandák, Karol Krak
+Paired-end mappability of transposable elements in the human genome; Corinne E. Sexton, Mira V. Han
+A re-evaluation of LINE-1 ORF2 expression in LNCaP prostate cancer cells; Erica M. Briggs, Corrado Spadafora, Susan K. Logan
+MGERT: a pipeline to retrieve coding sequences of mobile genetic elements from genome assemblies; Andrei S. Guliaev, Seraphima K. Semyenova
+The Transposon Registry; Supathep Tansirichaiya, Md. Ajijur Rahman, Adam P. Roberts
+flam piRNA precursors channel from the nucleus to the cytoplasm in a temporally regulated manner along Drosophila oogenesis; Cynthia Dennis, Emilie Brasset, Chantal Vaury
+TE studies in Japan: the fourth Japanese meeting on host–transposon interactions; Kenji Ichiyanagi, Kuniaki Saito
+Characterization of the endogenous retrovirus insertion in CYP19A1 associated with henny feathering in chicken; Jingyi Li, Brian W. Davis, Patric Jern, Ben. J. Dorshorst, Paul B. Siegel, Leif Andersson
+Correction to: Nested plant LTR retrotransposons target specific regions of other elements, while all LTR retrotransposons often target palindromes and nucleosome-occupied regions: in silico study; Pavel Jedlicka, Matej Lexa, Ivan Vanat, Roman Hobza, Eduard Kejnovsky
+RepetDB: a unified resource for transposable element references; Joëlle Amselem, Guillaume Cornut, Nathalie Choisne, Michael Alaux, Françoise Alfama-Depauw, Véronique Jamilloux, Florian Maumus, Thomas Letellier, Isabelle Luyten, Cyril Pommier, Anne-Françoise Adam-Blondon, Hadi Quesneville
+Expression of down-regulated ERV LTR elements associates with immune activation in human small-cell lung cancers; Marco Russo, Sara Morelli, Giovanni Capranico
+Alu insertion polymorphisms shared by Papio baboons and Theropithecus gelada reveal an intertwined common ancestry; Jerilyn A. Walker, Vallmer E. Jordan, Jessica M. Storer, Cody J. Steely, Paulina Gonzalez-Quiroga, Thomas O. Beckstrom, Lydia C. Rewerts, Corey P. St. Romain, Catherine E. Rockwell, Jeffrey Rogers, Clifford J. Jolly, Miriam K. Konkel, The Baboon Genome Analysis Consortium, Mark A. Batzer
+SINE Retrotransposon variation drives Ecotypic disparity in natural populations of Coilia nasus; Dong Liu, Jinquan Yang, Wenqiao Tang, Xing Zhang, Clay Matthew Royster, Ming Zhang
+Mouse germ line mutations due to retrotransposon insertions; Liane Gagnier, Victoria P. Belancio, Dixie L. Mager
+Phylogenetic analysis of the Tc1/mariner superfamily reveals the unexplored diversity of pogo-like elements; Mathilde Dupeyron, Tobias Baril, Chris Bass, Alexander Hayward
+Characterising a human endogenous retrovirus(HERV)-derived tumour-associated antigen: enriched RNA-Seq analysis of HERV-K(HML-2) in mantle cell lymphoma cell lines; Witold Tatkiewicz, James Dickie, Franchesca Bedford, Alexander Jones, Mark Atkin, Michele Kiernan, Emmanuel Atangana Maze, Bora Agit, Garry Farnham, Alexander Kanapin, Robert Belshaw
+Comprehensive genomic analysis reveals dynamic evolution of endogenous retroviruses that code for retroviral-like protein domains; Mahoko Takahashi Ueda, Kirill Kryukov, Satomi Mitsuhashi, Hiroaki Mitsuhashi, Tadashi Imanishi, So Nakagawa
+The UCSC repeat browser allows discovery and visualization of evolutionary conflict across repeat families; Jason D. Fernandes, Armando Zamudio-Hurtado, Hiram Clawson, W. James Kent, David Haussler, Sofie R. Salama, Maximilian Haeussler
+Integrating transposable elements in the 3D genome; Alexandros Bousios, Hans-Wilhelm Nützmann, Dorothy Buck, Davide Michieletto
+Hybrid dysgenesis in Drosophila virilis results in clusters of mitotic recombination and loss-of-heterozygosity but leaves meiotic recombination unaltered; Lucas W. Hemmer, Guilherme B. Dias, Brittny Smith, Kelley Van Vaerenberghe, Ashley Howard, Casey M. Bergman, Justin P. Blumenstiel
+Finding and extending ancient simple sequence repeat-derived regions in the human genome; Jonathan A. Shortt, Robert P. Ruggiero, Corey Cox, Aaron C. Wacholder, David D. Pollock
+Identification and characterization of ERV-W-like sequences in Platyrrhini species provides new insights into the evolutionary history of ERV-W in primates; Nicole Grandi, Maria Paola Pisano, Martina Demurtas, Jonas Blomberg, Gkikas Magiorkinis, Jens Mayer, Enzo Tramontano
+Variation in base composition underlies functional and evolutionary divergence in non-LTR retrotransposons; Robert P. Ruggiero, Stéphane Boissinot
+Integrated Mobile Element Scanning (ME-Scan) method for identifying multiple types of polymorphic mobile element insertions; Jui Wan Loh, Hongseok Ha, Timothy Lin, Nawei Sun, Kathleen H. Burns, Jinchuan Xing
+LUMI-PCR: an Illumina platform ligation-mediated PCR protocol for integration site cloning, provides molecular quantitation of integration sites; Joanna C. Dawes, Philip Webster, Barbara Iadarola, Claudia Garcia-Diaz, Marian Dore, Bruce J. Bolt, Hamlata Dewchand, Gopuraja Dharmalingam, Alex P. McLatchie, Jakub Kaczor, Juan J. Caceres, Alberto Paccanaro, Laurence Game, Simona Parrinello, Anthony G. Uren
+Nested plant LTR retrotransposons target specific regions of other elements, while all LTR retrotransposons often target palindromes and nucleosome-occupied regions: in silico study; Pavel Jedlicka, Matej Lexa, Ivan Vanat, Roman Hobza, Eduard Kejnovsky
+Variable genome evolution in fungi after transposon-mediated amplification of a housekeeping gene; Braham Dhillon, Gert H. J. Kema, Richard C. Hamelin, Burt H. Bluhm, Stephen B. Goodwin
+Characterization of a novel Helitron family in insect genomes: insights into classification, evolution and horizontal transfer; Guangjie Han, Nan Zhang, Jian Xu, Heng Jiang, Caihong Ji, Ze Zhang, Qisheng Song, David Stanley, Jichao Fang, Jianjun Wang
+High frequency of horizontal transfer in Jockey families (LINE order) of drosophilids; Izabella L. Tambones, Annabelle Haudry, Maryanna C. Simão, Claudia M. A. Carareto
+Characterization of a relaxase belonging to the MOBT family, a widespread family in Firmicutes mediating the transfer of ICEs; Nicolas Soler, Emilie Robert, Isaure Chauvot de Beauchêne, Philippe Monteiro, Virginie Libante, Bernard Maigret, Johan Staub, David W. Ritchie, Gérard Guédon, Sophie Payot, Marie-Dominique Devignes, Nathalie Leblond-Bourget
+A benchmark of transposon insertion detection tools using real data; Pol Vendrell-Mir, Fabio Barteri, Miriam Merenciano, Josefa González, Josep M. Casacuberta, Raúl Castanera
+A mobile restriction modification system consisting of methylases on the IncA/C plasmid; Ruibai Wang, Jing Lou, Jie Li
+Horizontal transfer of a retrotransposon between parasitic nematodes and the common shrew; Sonja M. Dunemann, James D. Wasmuth
+Sex and the TEs: transposable elements in sexual development and function in animals; Corentin Dechaud, Jean-Nicolas Volff, Manfred Schartl, Magali Naville
