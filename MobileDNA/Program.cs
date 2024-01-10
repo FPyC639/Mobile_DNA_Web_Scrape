@@ -12,7 +12,10 @@ namespace MobileDNA
         {
             var reader = new Process_HTML();
             Console.Write("Enter the Year: ");
-            reader.year = Console.ReadLine();
+            reader.set_year(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine("Enter the search query: ");
+            reader.query = Console.ReadLine();
             Console.WriteLine("Break\n\n\n");
             reader.write_html_csv();
             Console.ReadKey();

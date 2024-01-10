@@ -30,7 +30,47 @@ public class Process_HTML : Reader_HTML
 {
 
 	public string url { get; set; }
-	public string year { get; set; }
+    public string query { get; set; }
+    public string year;
+    public void set_year(String year)
+    {
+        switch (year)
+        {
+            case "2010":
+                this.year = "1"; break;
+            case "2011":
+                this.year = "2"; break;
+            case "2012":
+                this.year = "3"; break;
+            case "2013":
+                this.year = "4"; break;
+            case "2014":
+                this.year = "5"; break;
+            case "2015":
+                this.year = "6"; break;
+            case "2016":
+                this.year = "7"; break;
+            case "2017":
+                this.year = "8"; break;
+            case "2018":
+                this.year = "9"; break;
+            case "2019":
+                this.year = "10"; break;
+            case "2020":
+                this.year = "11"; break;
+            case "2021":
+                this.year = "12"; break;
+            case "2022":
+                this.year = "13"; break;
+            case "2023":
+                this.year = "14"; break;
+            default:
+                this.year = null;
+                throw new Exception("Year must be between 2010 and 2023.");
+                break;
+        }
+    }
+    
 	private string query_string;
 	private HtmlDocument doc = new HtmlDocument();
 	private HtmlDocument subdoc = new HtmlDocument();
@@ -57,7 +97,7 @@ public class Process_HTML : Reader_HTML
     protected override async Task<HtmlDocument> parse_webpage()
 	{
         var webGet = new HttpClient();
-        this.query_string = this.url + string.Format(@"?query={0}&volume=&searchType=&tab=keyword", year);
+        this.query_string = this.url + string.Format(@"?query={0}&volume={1}&searchType=&tab=keyword", this.query ,this.year);
         var response = await webGet.GetAsync(creator(this.query_string));
         if (response.IsSuccessStatusCode)
         {
@@ -155,6 +195,6 @@ public class Process_HTML : Reader_HTML
         {
             csv.AppendLine(merger);
         }
-        File.WriteAllText(@"C:\Users\joses\Source\Repos\Mobile_DNA_Web_Scrape\MobileDNA\Data3.txt", csv.ToString());
+        File.WriteAllText(@"C:\Users\joses\Source\Repos\Mobile_DNA_Web_Scrape\MobileDNA\Data4.txt", csv.ToString());
     }
 }

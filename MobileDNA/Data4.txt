@@ -1,0 +1,29 @@
+Title;Authors
+Regulation of DNA transposition by CpG methylation and chromatin structure in human cells; Tobias Jursch, Csaba Miskey, Zsuzsanna Izsvák, Zoltán Ivics
+A proposed mechanism for IS607-family serine transposases; Martin R Boocock, Phoebe A Rice
+The site-specific integration reaction of Listeria phage A118 integrase, a serine recombinase; Sridhar Mandali, Gautam Dhar, Nuraly K Avliyakulov, Michael J Haykinson, Reid C Johnson
+Distinctive patterns of epigenetic marks are associated with promoter regions of mouse LINE-1 and LTR retrotransposons; Danny Rangasamy
+Diversity of transposable elements and repeats in a 600 kb region of the fly Calliphora vicina; Bárbara Negre, Pat Simpson
+Reviewer acknowledgement 2013; Nancy L Craig, Thomas H Eikbush, Daniel F Voytas
+Erratum to: Reliable transgene-independent method for determining sleeping beauty transposon copy numbers; Orsolya Kolacsek, Virág Krízsik, Anita Schamberger, Zsuzsa Erdei, Ágota Apáti, György Várady, Lajos Mátés, Zsuzsanna Izsvák, Zoltán Ivics, Balázs Sarkadi, Tamás I Orbán
+A pipeline of programs for collecting and analyzing group II intron retroelement sequences from GenBank; Michael Abebe, Manuel A Candales, Adrian Duong, Keyar S Hood, Tony Li, Ryan A E Neufeld, Abat Shakenov, Runda Sun, Li Wu, Ashley M Jarding, Cameron Semper, Steven Zimmerly
+Transposable element evolution in Heliconius suggests genome diversity within Lepidoptera; Christine A Lavoie, Roy N Platt II, Peter A Novick, Brian A Counterman, David A Ray
+Homologues of bacterial TnpB_IS605 are widespread in diverse eukaryotic transposable elements; Weidong Bao, Jerzy Jurka
+Highly diverse chromoviruses of Beta vulgaris are classified by chromodomains and chromosomal integration; Beatrice Weber, Tony Heitkam, Daniela Holtgräwe, Bernd Weisshaar, André E Minoche, Juliane C Dohm, Heinz Himmelbauer, Thomas Schmidt
+PGBD5: a neural-specific intron-containing piggyBac transposase domesticated over 500 million years ago and conserved from cephalochordates to humans; Thomas Pavelitz, Lucas T Gray, Stephanie L Padilla, Arnold D Bailey, Alan M Weiner
+The Putzig partners DREF, TRF2 and KEN are involved in the regulation of the Drosophila telomere retrotransposons, HeT-A and TART; Rute Silva-Sousa, Míriam Díaz Varela, Elena Casacuberta
+In and out of the rRNA genes: characterization of Pokey elements in the sequenced Daphnia genome; Tyler A Elliott, Deborah E Stage, Teresa J Crease, Thomas H Eickbush
+Nuclear group I introns in self-splicing and beyond; Annica Hedberg, Steinar D Johansen
+Endonuclease-containing Penelope retrotransposons in the bdelloid rotifer Adineta vaga exhibit unusual structural features and play a role in expansion of host gene families; Irina R Arkhipova, Irina A Yushenova, Fernando Rodriguez
+Conserved structure and inferred evolutionary history of long terminal repeats (LTRs); Farid Benachenhou, Göran O Sperber, Erik Bongcam-Rudloff, Göran Andersson, Jef D Boeke, Jonas Blomberg
+Cell division promotes efficient retrotransposition in a stable L1 reporter cell line; Yi Xie, Lajos Mates, Zoltán Ivics, Zsuzsanna Izsvák, Sandra L Martin, Wenfeng An
+Analysis of western lowland gorilla (Gorilla gorilla gorilla) specific Alu repeats; Adam T McLain, Glenn W Carman, Mitchell L Fullerton, Thomas O Beckstrom, William Gensler, Thomas J Meyer, Christopher Faulk, Mark A Batzer
+Translocation junctions in TCF3-PBX1 acute lymphoblastic leukemia/lymphoma cluster near transposable elements; Nemanja Rodić, John G Zampella, Toby C Cornish, Sarah J Wheelan, Kathleen H Burns
+Evolution of a transposon in Daphnia hybrid genomes; Roland Vergilino, Tyler A Elliott, Philippe Desjardins-Proulx, Teresa J Crease, France Dufresne
+Striking structural dynamism and nucleotide sequence variation of the transposon Galileo in the genome of Drosophila mojavensis; Mar Marzo, Xabier Bello, Marta Puig, Xulio Maside, Alfredo Ruiz
+Identification of three new Alu Yb subfamilies by source tracking of recently integrated Alu Yb elements; Musaddeque Ahmed, Wen Li, Ping Liang
+Now on display: a gallery of group II intron structures at different stages of catalysis; Marco Marcia, Srinivas Somarowthu, Anna Marie Pyle
+Revisiting the evolution of mouse LINE-1 in the genomic era; Akash Sookdeo, Crystal M Hepp, Marcella A McClure, Stéphane Boissinot
+NucBase, an easy to use read mapper for small RNAs; Jeremy Dufourt, Pierre Pouchin, Pierre Peyret, Emilie Brasset, Chantal Vaury
+LINE-1 and Alu retrotransposition exhibit clonal variation; Vincent A Streva, Zachary J Faber, Prescott L Deininger
+Sirevirus LTR retrotransposons: phylogenetic misconceptions in the plant world; Alexandros Bousios, Nikos Darzentas
