@@ -4,8 +4,9 @@
 This web scraper is a work in progress application I built based on DS 636 at NJIT. It is a pinnacle of Data Science enviroment being used in R. This is a small project that will gather and perform an analysis on titles using Natural Language Processing.
 
 
+# Update 20240110
 
-
+In this update I upgraded the searching parameter for the Web Scraper. Now it searches by query and by year (aka Volume)
 
 ## Acknowledgements
 
@@ -21,3 +22,6 @@ This web scraper is a work in progress application I built based on DS 636 at NJ
 
 - [@FPyC639](https://github.com/FPyC639)
 
+## Appendix
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/joseserra8x)
