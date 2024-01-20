@@ -18,7 +18,11 @@ public abstract class Reader_HTML
 	abstract protected Task<HtmlDocument> parse_webpage();
 	abstract public List<string> read_title();
     abstract public List<string> read_authors(HtmlDocument doc);
+    abstract public List<string> read_access(HtmlDocument doc);
     abstract public Task<List<List<string>>> two_deep_extractor();
+    abstract public Task<List<List<string>>> two_deep_extractor_V2();
+    abstract public void write_html_csv();
+    abstract public void write_access_csv();
 
 
 
@@ -140,6 +144,19 @@ public class Process_HTML : Reader_HTML
         }
         return list;
     }
+
+    public override List<string> read_access(HtmlDocument doc)
+    {
+        var list = new List<string>();
+        var access = doc.DocumentNode.SelectNodes(
+            @"//ul[@class='c-article-metrics-bar u-list-reset']" +
+            "//li[@class=' c-article-metrics-bar__item']" +
+            "//p[@class='c-article-metrics-bar__count']");
+        list.Add(access[0].InnerText);
+        
+        return list;
+    }
+
 	public override async Task<List<List<string>>> two_deep_extractor()
 	{
 		var webpage_hrefs = new List<string>();
@@ -175,7 +192,42 @@ public class Process_HTML : Reader_HTML
         return webpage_authors;
     }
 
-    public void write_html_csv()
+    public override async Task<List<List<string>>> two_deep_extractor_V2()
+    {
+        var accesscounts = new List<List<string>>();
+        var webpage_hrefs = new List<string>();
+        var webGet = new HttpClient();
+        var doc = parse_webpage().Result;
+        var a_href = doc.DocumentNode.SelectNodes(@"//h3//a[@itemprop='url']");
+        foreach (var a in a_href)
+        {
+            webpage_hrefs.Add(string.Concat(this.url.Replace("/articles", ""), a.Attributes["href"].Value));
+        }
+        foreach (var str in webpage_hrefs)
+        {
+            var response = await webGet.GetAsync(creator(str));
+            if (response.IsSuccessStatusCode)
+            {
+                // Read the response content asynchronously 
+                response.Content.Headers.ContentType.CharSet = @"UTF-8";
+                string content = await response.Content.ReadAsStringAsync();
+
+
+                doc.LoadHtml(content);
+
+            }
+            else
+            {
+                Console.WriteLine($"Failed with status code: {response.StatusCode}");
+                doc = null;
+            }
+            var list = read_access(doc);
+            accesscounts.Add(list);
+        }
+        return accesscounts;
+    }
+
+    public override void write_html_csv()
     {
         var csv = new StringBuilder();
         string newLine = null;
@@ -197,4 +249,26 @@ public class Process_HTML : Reader_HTML
         }
         File.WriteAllText(@"C:\Users\joses\Source\Repos\Mobile_DNA_Web_Scrape\MobileDNA\Data4.txt", csv.ToString());
     }
+    public override void write_access_csv()
+    {
+        var csv = new StringBuilder();
+        string newLine = null;
+        var titles = read_title();
+        var access = two_deep_extractor_V2().Result;
+        csv.AppendLine("Titles;Accesses");
+        List<string> mergedTitlesAndAccess = new List<string>();
+        for (int i = 0; i < titles.Count; i++)
+        {
+            string title = titles[i];
+            List<string> access_i = access[i];
+            string access_ii = access_i[0];
+            mergedTitlesAndAccess.Add(String.Format("{0};{1}", title.Trim(),access_ii));
+        }
+        foreach (string merger in mergedTitlesAndAccess)
+        {
+            csv.AppendLine(merger);
+        }
+        File.WriteAllText(@"C:\Users\joses\Source\Repos\Mobile_DNA_Web_Scrape\MobileDNA\AccessData1.txt", csv.ToString());
+    }
+
 }

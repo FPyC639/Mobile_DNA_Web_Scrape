@@ -1,0 +1,29 @@
+Titles;Accesses
+Regulation of DNA transposition by CpG methylation and chromatin structure in human cells;7559 Accesses
+A proposed mechanism for IS607-family serine transposases;4831 Accesses
+The site-specific integration reaction of Listeria phage A118 integrase, a serine recombinase;6956 Accesses
+Distinctive patterns of epigenetic marks are associated with promoter regions of mouse LINE-1 and LTR retrotransposons;5055 Accesses
+Diversity of transposable elements and repeats in a 600 kb region of the fly Calliphora vicina;5039 Accesses
+Reviewer acknowledgement 2013;3904 Accesses
+Erratum to: Reliable transgene-independent method for determining sleeping beauty transposon copy numbers;3817 Accesses
+A pipeline of programs for collecting and analyzing group II intron retroelement sequences from GenBank;7098 Accesses
+Transposable element evolution in Heliconius suggests genome diversity within Lepidoptera;7266 Accesses
+Homologues of bacterial TnpB_IS605 are widespread in diverse eukaryotic transposable elements;12k Accesses
+Highly diverse chromoviruses of Beta vulgaris are classified by chromodomains and chromosomal integration;7738 Accesses
+PGBD5: a neural-specific intron-containing piggyBac transposase domesticated over 500 million years ago and conserved from cephalochordates to humans;5126 Accesses
+The Putzig partners DREF, TRF2 and KEN are involved in the regulation of the Drosophila telomere retrotransposons, HeT-A and TART;4398 Accesses
+In and out of the rRNA genes: characterization of Pokey elements in the sequenced Daphnia genome;4180 Accesses
+Nuclear group I introns in self-splicing and beyond;15k Accesses
+Endonuclease-containing Penelope retrotransposons in the bdelloid rotifer Adineta vaga exhibit unusual structural features and play a role in expansion of host gene families;5106 Accesses
+Conserved structure and inferred evolutionary history of long terminal repeats (LTRs);11k Accesses
+Cell division promotes efficient retrotransposition in a stable L1 reporter cell line;7776 Accesses
+Analysis of western lowland gorilla (Gorilla gorilla gorilla) specific Alu repeats;6420 Accesses
+Translocation junctions in TCF3-PBX1 acute lymphoblastic leukemia/lymphoma cluster near transposable elements;4341 Accesses
+Evolution of a transposon in Daphnia hybrid genomes;5489 Accesses
+Striking structural dynamism and nucleotide sequence variation of the transposon Galileo in the genome of Drosophila mojavensis;4763 Accesses
+Identification of three new Alu Yb subfamilies by source tracking of recently integrated Alu Yb elements;5388 Accesses
+Now on display: a gallery of group II intron structures at different stages of catalysis;6743 Accesses
+Revisiting the evolution of mouse LINE-1 in the genomic era;13k Accesses
+NucBase, an easy to use read mapper for small RNAs;4045 Accesses
+LINE-1 and Alu retrotransposition exhibit clonal variation;4601 Accesses
+Sirevirus LTR retrotransposons: phylogenetic misconceptions in the plant world;4282 Accesses

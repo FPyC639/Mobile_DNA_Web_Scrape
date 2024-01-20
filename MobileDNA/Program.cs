@@ -17,7 +17,8 @@ namespace MobileDNA
             Console.WriteLine("Enter the search query: ");
             reader.query = Console.ReadLine();
             Console.WriteLine("Break\n\n\n");
-            reader.write_html_csv();
+            //reader.write_html_csv();
+            reader.write_access_csv();
             Console.ReadKey();
         }
     }

@@ -93,6 +93,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AccessData1.txt" />
     <Content Include="Data.txt" />
     <Content Include="Data2.txt" />
     <Content Include="Data3.txt" />
