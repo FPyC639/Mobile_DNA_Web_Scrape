@@ -10,7 +10,11 @@ In this update I upgraded the searching parameter for the Web Scraper. Now it se
 
 # Update 20240120
 
-In this update I made a featuer that allows one to track now the access of the articles in the journal for a certain search.
+In this update I made a feature that allows one to track now the access of the articles in the journal for a certain search.
+
+# Update 20240121
+
+In this update I made a feature that allows one to plot the access of the articles in the journal for a certain search.
 
 ## Acknowledgements
 
