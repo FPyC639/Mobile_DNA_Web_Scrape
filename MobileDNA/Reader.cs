@@ -1,4 +1,5 @@
 ﻿using HtmlAgilityPack;
+using ScottPlot;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
@@ -9,6 +10,7 @@ using System.Net.Http;
 using System.Security.Policy;
 using System.Text;
 using System.Threading;
+using System.Diagnostics;
 /// <summary>
 /// Abstract class constructing Template to Process HTML for certain WebPage.
 /// </summary>
@@ -19,8 +21,7 @@ public abstract class Reader_HTML
 	abstract public List<string> read_title();
     abstract public List<string> read_authors(HtmlDocument doc);
     abstract public List<string> read_access(HtmlDocument doc);
-    abstract public Task<List<List<string>>> two_deep_extractor();
-    abstract public Task<List<List<string>>> two_deep_extractor_V2();
+    abstract public Task<Dictionary<string, List<List<string>>>> two_deep_extractor();
     abstract public void write_html_csv();
     abstract public void write_access_csv();
 
@@ -71,7 +72,6 @@ public class Process_HTML : Reader_HTML
             default:
                 this.year = null;
                 throw new Exception("Year must be between 2010 and 2023.");
-                break;
         }
     }
     
@@ -157,9 +157,10 @@ public class Process_HTML : Reader_HTML
         return list;
     }
 
-	public override async Task<List<List<string>>> two_deep_extractor()
+	public override async Task<Dictionary<string,List<List<string>>>> two_deep_extractor()
 	{
-		var webpage_hrefs = new List<string>();
+        var accesscounts = new List<List<string>>();
+        var webpage_hrefs = new List<string>();
         var webpage_authors = new List<List<string>>();
         var webGet = new HttpClient();
         var doc = parse_webpage().Result;
@@ -187,52 +188,25 @@ public class Process_HTML : Reader_HTML
                 doc = null;
             }
             var list = read_authors(doc);
+            var list2 = read_access(doc);
             webpage_authors.Add(list);
+            accesscounts.Add(list2);
         }
-        return webpage_authors;
+       
+        return new Dictionary<string, List<List<string>>>()
+        {
+            {"authors", webpage_authors },
+            {"access_counts", accesscounts }
+        };
     }
 
-    public override async Task<List<List<string>>> two_deep_extractor_V2()
-    {
-        var accesscounts = new List<List<string>>();
-        var webpage_hrefs = new List<string>();
-        var webGet = new HttpClient();
-        var doc = parse_webpage().Result;
-        var a_href = doc.DocumentNode.SelectNodes(@"//h3//a[@itemprop='url']");
-        foreach (var a in a_href)
-        {
-            webpage_hrefs.Add(string.Concat(this.url.Replace("/articles", ""), a.Attributes["href"].Value));
-        }
-        foreach (var str in webpage_hrefs)
-        {
-            var response = await webGet.GetAsync(creator(str));
-            if (response.IsSuccessStatusCode)
-            {
-                // Read the response content asynchronously 
-                response.Content.Headers.ContentType.CharSet = @"UTF-8";
-                string content = await response.Content.ReadAsStringAsync();
-
-
-                doc.LoadHtml(content);
-
-            }
-            else
-            {
-                Console.WriteLine($"Failed with status code: {response.StatusCode}");
-                doc = null;
-            }
-            var list = read_access(doc);
-            accesscounts.Add(list);
-        }
-        return accesscounts;
-    }
 
     public override void write_html_csv()
     {
         var csv = new StringBuilder();
         string newLine = null;
         var titles = read_title();
-        var authors = two_deep_extractor().Result;
+        var authors = two_deep_extractor().Result["authors"];
         csv.AppendLine("Title;Authors");
         List<string> mergedTitlesAndAuthors = new List<string>();
         for (int i = 0; i < titles.Count; i++)
@@ -254,21 +228,35 @@ public class Process_HTML : Reader_HTML
         var csv = new StringBuilder();
         string newLine = null;
         var titles = read_title();
-        var access = two_deep_extractor_V2().Result;
+        var access = two_deep_extractor().Result["access_counts"];
         csv.AppendLine("Titles;Accesses");
         List<string> mergedTitlesAndAccess = new List<string>();
+        List<double> a = new List<double>();
+        List<double> counts = new List<double>();
         for (int i = 0; i < titles.Count; i++)
         {
             string title = titles[i];
             List<string> access_i = access[i];
             string access_ii = access_i[0];
+            double b = Convert.ToDouble(access_ii.Split()[0].Replace("k","000").Trim());
+            double c = (double)i;
+            counts.Add(b); a.Add(c);
             mergedTitlesAndAccess.Add(String.Format("{0};{1}", title.Trim(),access_ii));
+            
         }
         foreach (string merger in mergedTitlesAndAccess)
         {
             csv.AppendLine(merger);
         }
         File.WriteAllText(@"C:\Users\joses\Source\Repos\Mobile_DNA_Web_Scrape\MobileDNA\AccessData1.txt", csv.ToString());
+        var plot_counts = counts.ToArray();
+        var plot_a = a.ToArray();
+        Plot myPlot = new Plot();
+        myPlot.Add.Bars(plot_counts);
+        myPlot.YLabel("Frequency", 20);
+        myPlot.XLabel("Articles",20);
+        myPlot.SavePng(@"C:\Users\joses\Source\Repos\Mobile_DNA_Web_Scrape\MobileDNA\quickstart.png", 400,400);
+        Process.Start(@"C:\Users\joses\Source\Repos\Mobile_DNA_Web_Scrape\MobileDNA\quickstart.png");
     }
 
 }
