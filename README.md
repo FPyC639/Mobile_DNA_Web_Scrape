@@ -8,6 +8,10 @@ This web scraper is a work in progress application I built based on DS 636 at NJ
 
 In this update I upgraded the searching parameter for the Web Scraper. Now it searches by query and by year (aka Volume)
 
+# Update 20240120
+
+In this update I made a featuer that allows one to track now the access of the articles in the journal for a certain search.
+
 ## Acknowledgements
 
  - Professors at Kean University
